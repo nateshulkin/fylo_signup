@@ -10,3 +10,14 @@ ul {
     width: 150px;
     padding: 0px;
 }
+
+body {
+  display: flex;
+  justify-content:
+}
+
+#section1 {
+  display: flex;
+  justify-content:
+  background-color: purple;
+}
