@@ -24,7 +24,7 @@ ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    width: 150px;
+    width: 170px;
     padding: 0px;
 }
 
@@ -42,4 +42,12 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
+}
+
+#section1 {
+  background-color: #1f25e8;
+}
+
+#section2 {
+  margin: 90px;
 }
