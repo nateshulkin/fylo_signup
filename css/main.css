@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-body {
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+h1 {
+  font-family: Raleway;
+  font-weight: bolder;
+}
+
+p {
   font-family: Open Sans;
 }
 
 header {
     display: flex;
     justify-content: space-between;
+}
+
+h1 {
+  font-weight: bold;
 }
 
 ul {
