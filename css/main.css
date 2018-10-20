@@ -21,3 +21,8 @@ body {
   justify-content:
   background-color: purple;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
