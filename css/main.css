@@ -30,13 +30,13 @@ ul {
 
 body {
   display: flex;
-  justify-content:
+  margin-bottom: 0px;
 }
 
 #section1 {
   display: flex;
   justify-content:
-  background-color: purple;
+  background-color:;
 }
 
 nav {
@@ -49,5 +49,15 @@ nav {
 }
 
 #section2 {
-  margin: 90px;
+  margin: 40px;
+}
+
+button {
+  color: green;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+}
 }
