@@ -2,6 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   font-family: Raleway;
   font-weight: bolder;
@@ -30,13 +39,15 @@ ul {
 
 body {
   display: flex;
-  margin-bottom: 0px;
+  margin: 0px;
+  height: 100vh;
 }
 
 #section1 {
   display: flex;
-  justify-content:
-  background-color:;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
 
 nav {
@@ -50,10 +61,16 @@ nav {
 
 #section2 {
   margin: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
 }
 
 button {
-  color: green;
+  background-color: hsl(163, 95%, 43%);
+  color: white;
 }
 
 footer {
