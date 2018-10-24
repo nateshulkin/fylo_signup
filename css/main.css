@@ -14,10 +14,15 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 h1 {
   font-family: Raleway;
   font-weight: bolder;
+  font-weight: bold;
+  display: flex;
+  margin: 4em;
 }
 
 p {
   font-family: Open Sans;
+  display: flex;
+  margin: 1em;
 }
 
 header {
@@ -47,22 +52,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 50vw;
   background-image: linear-gradient(45deg, hsl(243, 86%, 85%), hsl(243, 87%, 12%));
 }
 
 nav {
   display: flex;
-  justify-content: space-between;
+
 }
 
 #section2 {
   margin: 40px;
-  display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 50%;
+  width: 50vw;
 }
 
 button {
