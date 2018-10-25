@@ -68,6 +68,10 @@ nav {
   width: 50vw;
 }
 
+label {
+  box-shadow: 5px 5px 5px grey;
+}
+
 button {
   background-color: hsl(163, 95%, 43%);
   color: white;
