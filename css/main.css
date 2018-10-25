@@ -44,8 +44,8 @@ ul {
 
 body {
   display: flex;
+  flex-direction: column;
   margin: 0px;
-  height: 100vh;
 }
 
 #section1 {
@@ -99,4 +99,13 @@ footer {
   display: flex;
   justify-content: flex-end;
   margin-top: 40%;
+}
+
+/*--Media Query for body--*/
+
+@media (min-width: 48em) {
+  body {
+    flex-direction: row;
+    height: 100vh;
+  }
 }
