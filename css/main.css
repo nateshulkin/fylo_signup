@@ -68,15 +68,32 @@ nav {
   width: 50vw;
 }
 
-label {
-  box-shadow: 5px 5px 5px grey;
-}
-
 button {
   background-color: hsl(163, 95%, 43%);
   color: white;
+  width: 12em;
+  height: 4.5em;
+  border-radius: 7px;
+  font-family: Open Sans;
 }
 
+fieldset {
+  border-style: none;
+  padding: 0em;
+  margin: 0em;
+}
+
+legend {
+  font-family: Open Sans;
+}
+
+input {
+  width: 25em;
+  height: 4.5em;
+  box-shadow: 5px 5px 5px #80808024;
+  margin-right: 1.5em;
+  border-radius: 7px;
+}
 footer {
   display: flex;
   justify-content: flex-end;
