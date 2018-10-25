@@ -71,10 +71,11 @@ nav {
 button {
   background-color: hsl(163, 95%, 43%);
   color: white;
-  width: 12em;
-  height: 4.5em;
+  width: 12rem;
+  height: 4.5rem;
   border-radius: 7px;
   font-family: Open Sans;
+  font-size: 21px;
 }
 
 fieldset {
